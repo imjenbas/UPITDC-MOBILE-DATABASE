@@ -1,0 +1,8 @@
+Variables
+
+- Variable names are preceded by $
+- Variable names are case sensitive
+- Variable names must start with a letter or an underscore character
+- Variable names can only contain alphanumeric and underscore characters
+- There is no need to declare the datatype (ie int, char, float)
+- Example: $var1, $_var2
