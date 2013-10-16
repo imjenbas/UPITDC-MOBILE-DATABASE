@@ -1,0 +1,38 @@
+Arrays
+
+- To get the length: count($a)
+- Types of arrays
+	1. indexed arrays
+	2. Associated arrays
+	3. Multidimensional arrays
+	
+#################  Indexed Arrays  #######################
+
+Example:
+- $a = array('A','B','C');
+- $a[0]=1;
+- $a[1]=2;
+- $A[2]=3;
+
+echo $a[1];
+###########################################################
+
+#################  Associative Arrays  ###################
+
+Example:
+- $person = array('name' => 'Ninay', 'age' => '22') // Value of age is set as a string
+- $person['name']='Ninay';
+  $person['age']=22; // Set value is a number
+  
+echo $person['name'];
+############################################################
+
+#################  Multidimensional Arrays  #################
+
+Example:
+$a = array(
+	'one' => array('1','uno'),
+	'two' => array('2','dos,)
+);
+echo $a['one'][1];
+##############################################################

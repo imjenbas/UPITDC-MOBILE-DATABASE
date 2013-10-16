@@ -1,0 +1,9 @@
+PHP Data Types
+
+- String (ex. $S = 'Hello world!')
+- Integer (ex. $i = 1)
+- Float (ex. $f = 0.5)
+- Boolean ($b = true)
+- Array [ex. $a = array('A','B','C')]
+- Object
+- NULL

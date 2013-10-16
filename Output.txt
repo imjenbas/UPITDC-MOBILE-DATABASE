@@ -1,0 +1,9 @@
+Output
+
+echo : can output 1 or more strings
+
+print : can only output 1 string, returns 1
+
+print_r : prints human readable information about a variable
+
+var_dump : dumps information about a variable

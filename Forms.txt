@@ -1,0 +1,37 @@
+Form Handling
+
+- Creates an array
+- GET
+	All variable names and values are visible in the URL
+	limit: 200 characters
+- POST
+	data is invisible
+	no limits on the amount of information
+	
+Form Sample
+File 1:
+<html>
+	<body>
+	
+	<form action="hello_get.php" method="get">
+	Name: <input type="text" name="name"><br>
+	Age: <input type="text" name="age"><br>
+	<input type="submit">
+	</form>
+	
+	</body>
+</html>
+
+File 2:
+<html>
+	<head></head>
+	<title>Form Handling - Hello_Get PHP</title>
+	<body>
+	Hello <?php echo$_GET['name']; ?>!<br>
+	<?php
+		if($_GET['age']>25)
+			echo 'You are young.';
+		else
+			echo 'You are young at heart.';
+	</body>
+</html>
