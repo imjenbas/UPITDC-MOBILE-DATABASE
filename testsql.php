@@ -1,0 +1,10 @@
+<?php
+$connection=mysqli_connect("localhost", "root", "admin", "test");
+
+if(mysqli_connect_errno)($connection))
+{
+	echo"Failed to connect to MySQL:" . mysqli_connect_error();
+}
+
+mysqli_close($connection);
+?>

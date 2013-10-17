@@ -1,0 +1,21 @@
+XML
+
+"Extensible Markup Language"
+
+Similar to HTML
+
+XML was designed to carry data, not to display data
+
+XML tags are not predefined
+
+example:
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<persons>
+	<person>
+		<first_name>Jen</first_name>
+		<last_name>Bas</last_name>
+		<age>99</age>
+	</person>
+</persons>
+

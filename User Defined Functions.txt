@@ -1,0 +1,11 @@
+USER DEFINED FUNCTIONS
+
+function function_name()
+	{
+		//insert code here
+	
+	}
+function function_name($var1, $var2 = NULL)
+	{
+		//insert code here
+	}

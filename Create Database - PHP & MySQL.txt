@@ -1,0 +1,12 @@
+CREATE DATABASE
+
+<?php
+	$connection=mysqli_connect("localhost","root","admin","test");
+	$sql "CREATE DATABASE my_db";
+	if(mysqli_query($con, $sql)) {
+		echo "Database my_db created successfully";
+		}
+	else 
+		echo "Error creating database:".mysql_error($con);
+		
+?>

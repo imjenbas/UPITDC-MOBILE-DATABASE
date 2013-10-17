@@ -1,0 +1,9 @@
+Insert Record
+
+$first_name = 'Ninay';
+$last_name = 'Sarol';
+$age = 22;
+
+$sql = "INSERT INTO Persons (firs_name, last_name, age) VALUES ('$first_name','$last_name',$age)";
+
+mysqli_query($con, $sql);

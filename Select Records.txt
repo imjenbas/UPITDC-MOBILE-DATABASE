@@ -1,0 +1,11 @@
+Select Records
+
+$sql = "SELECT * FROM persons"
+$result = mysqli_query($con, $sql);
+
+while($row = mysqli_fetch_array($result))
+
+{
+	echo $row['first_name']. "" . $row['last_name'];
+	echo "<br>";
+}

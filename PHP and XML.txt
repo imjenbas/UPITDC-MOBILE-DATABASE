@@ -1,0 +1,13 @@
+PHP and XML
+
+<?php
+	$xml=simplexml_load_file("person.xml");
+	echo $xml->getName(). "<br>";
+	
+	foreach($xml->childrem()as $child)
+	
+	{
+		echo $child->getName(). ":" .$child . "<br>";
+	}
+
+?>
